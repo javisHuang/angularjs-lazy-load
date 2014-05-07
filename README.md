@@ -1,4 +1,4 @@
-Angular lazy load
+AngularJs lazy load
 =================
 
 This directive help you to make lazy load (in ngRepeat for example). It's best way to improve render speed i found. Done for PhoneGap app and directive really accelerated it. 

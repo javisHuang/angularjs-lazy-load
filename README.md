@@ -13,7 +13,7 @@ __My AngularJs ver. 1.2.16__
 * Insert __us-lazy-load-repeatable__ tag in container before repeatable contents. 
 * Specify ``` lazy-list ``` tag with some your scope property that is repeats. Example: ``` lazy-list="list" ```.
 * Use in your ng-repeat __cuttedList__ property. Like: ``` <li ng-repeat="item in cuttedList">  ```
-* To specify item count in one load iteration use __lazy-item-count__ like     ``` <div ng-show="cuttedList" us-lazy-load-repeatable lazy-list="list" lazy-item-count="30"> ```. __Defaults 15__.
+* To specify item count in one load iteration use __lazy-item-count__ like     ``` <div us-lazy-load-repeatable lazy-list="list" lazy-cuttedlist="cuttedList" lazy-item-count="30"> ```. __Defaults 15__.
 
 ## Full example
 ```

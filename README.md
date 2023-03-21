@@ -17,7 +17,7 @@ __My AngularJs ver. 1.2.16__
 
 ## Full example
 ```
-<div ng-show="cuttedList" us-lazy-load-repeatable lazy-list="list">
+<div us-lazy-load-repeatable lazy-list="list" lazy-cuttedlist="cuttedList" lazy-item-count="100">
 	<li ng-repeat="item in cuttedList">
 		<div>{{ item.name }}</div>
 	</li>
